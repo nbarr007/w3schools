@@ -1,0 +1,7 @@
+import datetime
+
+name = raw_input("What is your name? ")
+age = input("What is your age? ")
+now = datetime.datetime.now()
+diff = 100 - age
+print = "Hello " + name + " you will be 100 years old in the year",now.year+diff
